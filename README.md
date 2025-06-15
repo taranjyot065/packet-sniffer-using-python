@@ -9,7 +9,6 @@ pip install scapy
 🧠 Python Code:
 from scapy.all import sniff, IP, TCP, UDP, Raw
 
-# Function to process each captured packet
 def process_packet(packet):
     print("\n=== New Packet Captured ===")
 
